@@ -1,4 +1,4 @@
--- Admin Full Hub V5 - Whitelist: 288sjsjajabaj
+-- Hoài Băng Full Hub V5 - Whitelist: 288sjsjajabaj
 -- Các tính năng: Key System, One-Tap Teleport (Draggable), No Cooldown, Auto Farm Trophy, Anti-Kick, Anti-AFK
 local Player = game.Players.LocalPlayer
 local Mouse = Player:GetMouse()
@@ -53,9 +53,9 @@ local function DeactivateTele()
     MainBtn.BackgroundColor3 = Color3.fromRGB(0, 120, 255)
 end
 
--- Khi nhập đúng Key 859532
+-- Khi nhập đúng Key 1
 KeyBtn.MouseButton1Click:Connect(function()
-    if KeyInput.Text == "859532" then
+    if KeyInput.Text == "Bu lon t đi" then
         KeyFrame.Visible = false
         MainBtn.Visible = true
         
